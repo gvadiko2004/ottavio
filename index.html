@@ -1,0 +1,1902 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EVANTO</title>
+
+    <link rel="shortcut icon" href="./images/fav.svg" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <div class="header__start">
+              <a href="#!" class="header__logo">
+                <img src="./images/logo.png" alt="EVANTO" />
+              </a>
+
+              <ul class="header__list list-reset">
+                <li class="header__list-item">
+                  <a href="#gallery" class="header__list-link">Галерея</a>
+                </li>
+
+                <li class="header__list-item">
+                  <a href="#tech" class="header__list-link">Наша техніка</a>
+                </li>
+
+                <li class="header__list-item">
+                  <a href="#tarif" class="header__list-link">Тарифи</a>
+                </li>
+
+                <li class="header__list-item">
+                  <a href="#services" class="header__list-link">Послуги</a>
+                </li>
+
+                <li class="header__list-item">
+                  <a href="#contact" class="header__list-link">Контакти</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="header__end">
+              <button class="btn-reset btn-gradient header__end-btn">
+                Забронювати місце
+              </button>
+
+              <button class="btn-reset header__btn-open">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="18"
+                  viewBox="0 0 24 18"
+                  fill="none"
+                >
+                  <path
+                    d="M24 9C24 9.26522 23.8946 9.51957 23.7071 9.70711C23.5196 9.89464 23.2652 10 23 10H1C0.734784 10 0.48043 9.89464 0.292893 9.70711C0.105357 9.51957 0 9.26522 0 9C0 8.73478 0.105357 8.48043 0.292893 8.29289C0.48043 8.10536 0.734784 8 1 8H23C23.2652 8 23.5196 8.10536 23.7071 8.29289C23.8946 8.48043 24 8.73478 24 9ZM1 2H23C23.2652 2 23.5196 1.89464 23.7071 1.70711C23.8946 1.51957 24 1.26522 24 1C24 0.734784 23.8946 0.48043 23.7071 0.292893C23.5196 0.105357 23.2652 0 23 0H1C0.734784 0 0.48043 0.105357 0.292893 0.292893C0.105357 0.48043 0 0.734784 0 1C0 1.26522 0.105357 1.51957 0.292893 1.70711C0.48043 1.89464 0.734784 2 1 2ZM23 16H1C0.734784 16 0.48043 16.1054 0.292893 16.2929C0.105357 16.4804 0 16.7348 0 17C0 17.2652 0.105357 17.5196 0.292893 17.7071C0.48043 17.8946 0.734784 18 1 18H23C23.2652 18 23.5196 17.8946 23.7071 17.7071C23.8946 17.5196 24 17.2652 24 17C24 16.7348 23.8946 16.4804 23.7071 16.2929C23.5196 16.1054 23.2652 16 23 16Z"
+                    fill="white"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="menu">
+        <div class="top">
+          <div class="menu__top">
+            <img src="./images/logo.png" alt="" />
+
+            <button class="btn-reset btn-close">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="15"
+                height="15"
+                viewBox="0 0 15 15"
+                fill="none"
+              >
+                <path
+                  d="M14.781 13.7198C14.8507 13.7895 14.906 13.8722 14.9437 13.9632C14.9814 14.0543 15.0008 14.1519 15.0008 14.2504C15.0008 14.349 14.9814 14.4465 14.9437 14.5376C14.906 14.6286 14.8507 14.7114 14.781 14.781C14.7114 14.8507 14.6286 14.906 14.5376 14.9437C14.4465 14.9814 14.349 15.0008 14.2504 15.0008C14.1519 15.0008 14.0543 14.9814 13.9632 14.9437C13.8722 14.906 13.7895 14.8507 13.7198 14.781L7.50042 8.56073L1.28104 14.781C1.14031 14.9218 0.94944 15.0008 0.750417 15.0008C0.551394 15.0008 0.360523 14.9218 0.219792 14.781C0.0790615 14.6403 3.92322e-09 14.4494 0 14.2504C-3.92322e-09 14.0514 0.0790615 13.8605 0.219792 13.7198L6.4401 7.50042L0.219792 1.28104C0.0790615 1.14031 0 0.94944 0 0.750417C0 0.551394 0.0790615 0.360523 0.219792 0.219792C0.360523 0.0790615 0.551394 0 0.750417 0C0.94944 0 1.14031 0.0790615 1.28104 0.219792L7.50042 6.4401L13.7198 0.219792C13.8605 0.0790615 14.0514 -3.92322e-09 14.2504 0C14.4494 3.92322e-09 14.6403 0.0790615 14.781 0.219792C14.9218 0.360523 15.0008 0.551394 15.0008 0.750417C15.0008 0.94944 14.9218 1.14031 14.781 1.28104L8.56073 7.50042L14.781 13.7198Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <ul class="menu__list list-reset">
+            <li class="menu__list-item">
+              <a href="#gallery" class="menu__list-link">Галерея </a>
+            </li>
+
+            <li class="menu__list-item">
+              <a href="#tech" class="menu__list-link">Наша техніка </a>
+            </li>
+
+            <li class="menu__list-item">
+              <a href="#tarif" class="menu__list-link">Тарифи </a>
+            </li>
+
+            <li class="menu__list-item">
+              <a href="#services" class="menu__list-link">Послуги </a>
+            </li>
+
+            <li class="menu__list-item">
+              <a href="#contact" class="menu__list-link">Контакти </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="menu__info">
+          <a href="#!" class="menu__info-link">+38 (050) 189 05 95</a>
+          <a href="#!" class="menu__info-link">ottavio.club@gmail.com</a>
+
+          <ul class="menu__info_list list-reset">
+            <li class="menu__info_list-item">
+              <a href="#!" class="menu__info_list-link tg">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="12"
+                  viewBox="0 0 15 12"
+                  fill="none"
+                >
+                  <path
+                    d="M1.33997 5.01562C1.33997 5.01562 7.39946 2.5288 9.50099 1.65313C10.3066 1.30289 13.0386 0.182032 13.0386 0.182032C13.0386 0.182032 14.2996 -0.308302 14.1945 0.882559C14.1594 1.37294 13.8792 3.08918 13.5991 4.94557C13.1787 7.57253 12.7234 10.4446 12.7234 10.4446C12.7234 10.4446 12.6533 11.2503 12.0579 11.3904C11.4625 11.5304 10.4817 10.9 10.3066 10.7599C10.1665 10.6548 7.67965 9.07863 6.76898 8.30806C6.52379 8.09791 6.2436 7.67763 6.80398 7.18725C8.06494 6.03138 9.57104 4.59533 10.4817 3.68466C10.902 3.26433 11.3223 2.28361 9.57104 3.47447C7.08422 5.19076 4.63241 6.80196 4.63241 6.80196C4.63241 6.80196 4.07198 7.1522 3.02121 6.83696C2.36006 6.63864 1.62959 6.39871 1.17876 6.24803C0.889736 6.15144 0.511945 6.03676 0.500237 5.73225C0.49266 5.53516 0.664384 5.27927 1.33997 5.01562Z"
+                    fill="url(#paint0_linear_263_125)"
+                  />
+                  <defs>
+                    <linearGradient
+                      id="paint0_linear_263_125"
+                      x1="7.35035"
+                      y1="0.0820312"
+                      x2="7.35035"
+                      y2="11.4105"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#019CEA" />
+                      <stop offset="1" stop-color="#0194DF" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </a>
+            </li>
+
+            <li class="menu__info_list-item">
+              <a href="#!" class="menu__info_list-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  viewBox="0 0 25 25"
+                  fill="none"
+                >
+                  <path
+                    d="M7.42269 0.295898C3.5107 0.295898 0.295898 3.5064 0.295898 7.42269V17.4071C0.295898 21.3191 3.5064 24.5339 7.42269 24.5339H17.4071C21.3191 24.5339 24.5339 21.3234 24.5339 17.4071V7.42269C24.5339 3.5107 21.3234 0.295898 17.4071 0.295898H7.42269ZM7.42269 2.49935H17.4071C20.1313 2.49935 22.3304 4.6985 22.3304 7.42269V17.4071C22.3304 20.1313 20.1313 22.3304 17.4071 22.3304H7.42269C4.6985 22.3304 2.49935 20.1313 2.49935 17.4071V7.42269C2.49935 4.6985 4.6985 2.49935 7.42269 2.49935ZM18.922 4.90938C18.3668 4.90938 17.9235 5.35265 17.9235 5.90782C17.9235 6.46298 18.3668 6.90626 18.922 6.90626C19.4771 6.90626 19.9204 6.46298 19.9204 5.90782C19.9204 5.35265 19.4771 4.90938 18.922 4.90938ZM12.4149 5.80453C8.77833 5.80453 5.80453 8.77833 5.80453 12.4149C5.80453 16.0514 8.77833 19.0252 12.4149 19.0252C16.0514 19.0252 19.0252 16.0514 19.0252 12.4149C19.0252 8.77833 16.0514 5.80453 12.4149 5.80453ZM12.4149 8.00798C14.8636 8.00798 16.8218 9.96613 16.8218 12.4149C16.8218 14.8636 14.8636 16.8218 12.4149 16.8218C9.96613 16.8218 8.00798 14.8636 8.00798 12.4149C8.00798 9.96613 9.96613 8.00798 12.4149 8.00798Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+            </li>
+
+            <li class="menu__info_list-item">
+              <a href="#!" class="menu__info_list-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  viewBox="0 0 25 25"
+                  fill="none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M21.1744 3.81821C18.8959 1.54803 15.8657 0.297174 12.6374 0.295898C5.98546 0.295898 0.571626 5.68344 0.568964 12.3056C0.568254 13.9996 0.924019 15.6613 1.60739 17.1909C1.93554 17.9254 2.05968 18.7469 1.8463 19.5226V19.5226C1.23369 21.7496 3.26186 23.8045 5.49666 23.2211L5.67717 23.1739C6.44061 22.9746 7.24456 23.0897 7.9728 23.3934C9.44108 24.0057 11.0257 24.325 12.6325 24.3256H12.6375C19.2887 24.3256 24.7031 18.9374 24.7058 12.3152C24.707 9.10599 23.4529 6.08839 21.1744 3.81821ZM12.6375 22.2971H12.6334C10.8335 22.2964 9.06814 21.8152 7.5281 20.9057V20.9057C7.29364 20.7672 7.01362 20.728 6.75015 20.7968L6.31113 20.9114C5.00207 21.2531 3.81404 20.0495 4.17289 18.745L4.26026 18.4274C4.33573 18.153 4.29215 17.8596 4.14021 17.619V17.619C3.13612 16.0296 2.60579 14.1925 2.60658 12.3064C2.60878 6.80228 7.10858 2.32439 12.6415 2.32439C15.3206 2.3254 17.8392 3.36514 19.733 5.25203C21.6268 7.13891 22.6692 9.64705 22.6682 12.3144C22.6659 17.8189 18.1661 22.2971 12.6375 22.2971ZM18.1396 14.8207C17.838 14.6705 16.3555 13.9444 16.079 13.8443C15.8026 13.7441 15.6016 13.6941 15.4006 13.9945C15.1996 14.2949 14.6217 14.9709 14.4457 15.1712C14.2699 15.3715 14.094 15.3965 13.7924 15.2463C13.4909 15.0961 12.5193 14.7792 11.3675 13.7568C10.4711 12.9611 9.86583 11.9783 9.68994 11.6779C9.51404 11.3774 9.67124 11.215 9.82218 11.0654C9.95782 10.9309 10.1237 10.7149 10.2745 10.5396C10.4253 10.3644 10.4755 10.2392 10.576 10.0389C10.6765 9.83864 10.6263 9.66337 10.5509 9.51316C10.4755 9.36296 9.87247 7.88582 9.62115 7.28497C9.37641 6.69978 9.12779 6.77896 8.94269 6.76979C8.767 6.76109 8.56577 6.75923 8.36477 6.75923C8.16373 6.75923 7.83706 6.83435 7.56063 7.13476C7.28424 7.4352 6.50528 8.16124 6.50528 9.63834C6.50528 11.1154 7.58577 12.5425 7.73656 12.7428C7.88731 12.943 9.86287 15.9743 12.8878 17.2742C13.6072 17.5834 14.1689 17.768 14.6069 17.9064C15.3293 18.1347 15.9866 18.1025 16.5062 18.0253C17.0855 17.9391 18.2903 17.2993 18.5416 16.5983C18.7929 15.8973 18.7929 15.2964 18.7175 15.1712C18.6421 15.046 18.4411 14.9709 18.1396 14.8207Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+            </li>
+
+            <li class="menu__info_list-item">
+              <a href="#!" class="menu__info_list-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  viewBox="0 0 25 25"
+                  fill="none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M12.4646 0.295898C15.6927 0.297174 18.7226 1.54803 21.0009 3.81821C23.2793 6.08839 24.5333 9.10599 24.532 12.3152C24.5293 18.9374 19.1154 24.3256 12.4647 24.3256H12.4597C10.853 24.325 9.26856 24.0057 7.80041 23.3934C7.07219 23.0898 6.26825 22.9747 5.50483 23.174L5.3248 23.221C3.08999 23.8044 1.06177 21.7495 1.67434 19.5225V19.5225C1.88769 18.7469 1.76357 17.9254 1.43545 17.191C0.752118 15.6613 0.396371 13.9996 0.397081 12.3056C0.399743 5.68344 5.81316 0.295898 12.4646 0.295898ZM12.4606 22.2971H12.4647C17.9929 22.2971 22.4923 17.8189 22.4946 12.3144C22.4956 9.64705 21.4533 7.13892 19.5596 5.25203C17.666 3.36514 15.1476 2.3254 12.4687 2.32439C6.9362 2.32439 2.43674 6.80228 2.43454 12.3064C2.43375 14.1925 2.96405 16.0296 3.96805 17.619V17.619C4.11998 17.8596 4.16356 18.153 4.0881 18.4274L4.00074 18.7449C3.64192 20.0494 4.82998 21.2531 6.13904 20.9113L6.57779 20.7968C6.84124 20.728 7.12125 20.7672 7.35568 20.9057V20.9057C8.89561 21.8152 10.6609 22.2964 12.4606 22.2971Z"
+                    fill="white"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M17.0762 15.0393C16.7335 14.7634 16.3673 14.5158 16.0068 14.2628C15.2878 13.7579 14.6303 13.7187 14.0938 14.531C13.7926 14.9871 13.3708 15.0071 12.9299 14.807C11.7142 14.2558 10.7755 13.4065 10.2256 12.1709C9.9824 11.6243 9.98561 11.1341 10.5547 10.7475C10.856 10.543 11.1596 10.3011 11.1353 9.85431C11.1036 9.27175 9.68916 7.3249 9.13059 7.11942C8.89945 7.03437 8.66928 7.03991 8.43413 7.11894C7.12437 7.5594 6.58187 8.63656 7.10142 9.91199C8.65138 13.7171 11.3791 16.3661 15.1339 17.983C15.1576 17.9932 15.1816 18.0027 15.2057 18.0116C15.5284 18.1309 15.888 18.1671 16.2155 18.0616C16.9237 17.8332 17.6187 17.1708 17.8516 16.5125C18.1301 15.7261 17.5416 15.414 17.0762 15.0393ZM12.8661 7.50953C15.6111 7.93165 16.8771 9.23691 17.2266 12.0017C17.259 12.257 17.1639 12.6413 17.5282 12.6484C17.909 12.6557 17.8173 12.2771 17.8205 12.0214C17.8512 9.53468 15.7818 7.22117 13.2989 6.94056C13.0646 6.91409 12.8266 6.89056 12.5917 6.90937C12.448 6.92087 12.323 6.98394 12.3092 7.22334C12.2921 7.52395 12.6387 7.47456 12.8661 7.50953Z"
+                    fill="white"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M13.4021 8.26775C13.1381 8.23595 12.7895 8.11155 12.7278 8.47789C12.6634 8.86242 13.0519 8.82337 13.3015 8.87925C14.9969 9.25816 15.5872 9.87522 15.8663 11.5569C15.9071 11.8021 15.8261 12.1837 16.2428 12.1205C16.5515 12.0735 16.44 11.7464 16.4658 11.5553C16.4795 9.94071 15.096 8.47115 13.4021 8.26775Z"
+                    fill="white"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M13.5571 9.5872C13.3809 9.59155 13.2079 9.61063 13.1431 9.79897C13.0458 10.0805 13.2505 10.1476 13.4588 10.1811C14.1543 10.2927 14.5203 10.7028 14.5898 11.3963C14.6085 11.5846 14.728 11.7371 14.9098 11.7156C15.1618 11.6856 15.1846 11.4613 15.1768 11.2483C15.1893 10.4691 14.3086 9.56854 13.5571 9.5872Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+
+          <button class="btn-reset menu__btn-form btn-gradient">
+            Забронювати місце
+          </button>
+        </div>
+      </div>
+
+      <main class="main">
+        <section class="hero">
+          <div class="container">
+            <div class="hero__inner">
+              <div class="hero__conetnt">
+                <h1 class="hero__conetnt-title">
+                  <img src="./images/evanto-logo.png" alt="" />
+                </h1>
+
+                <h4 class="hero__conetnt-subtitle">
+                  Топові ПК · Швидкий інтернет · Турніри · Онлайн-бронювання
+                </h4>
+
+                <p class="hero__conetnt-muted">
+                  Комфортна атмосфера, преміальне обладнання та ком’юніті
+                  справжніх геймерів. Грай без обмежень — з Ottavio все інше не
+                  має значення.
+                </p>
+
+                <button class="btn-reset btn-gradient hero__conetnt-btn">
+                  Забронювати місце
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="icons">
+            <div class="container">
+              <div class="icons-item">
+                <img src="./images/icons/Group 14040.png" alt="" />
+              </div>
+
+              <div class="icons-item">
+                <img src="./images/icons/hator-seeklogo 1.png" alt="" />
+              </div>
+
+              <div class="icons-item">
+                <img src="./images/icons/hator-seeklogo 2.png" alt="" />
+              </div>
+
+              <div class="icons-item">
+                <img src="./images/icons/hyperx-logo-lg.png" alt="" />
+              </div>
+
+              <div class="icons-item">
+                <img src="./images/icons/logitech-2-1-1.png" alt="" />
+              </div>
+
+              <div class="icons-item">
+                <img src="./images/icons/Ryzen-Logo.wine-1.png" alt="" />
+              </div>
+
+              <div class="icons-item">
+                <img src="./images/icons/Ryzen-Logo.wine.png" alt="" />
+              </div>
+
+              <div class="icons-item">
+                <img src="./images/icons/Ryzen-Logo.wine.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="slider" id="gallery">
+          <div class="container">
+            <div class="slider__inner">
+              <h1 class="slider__title title"><span>/</span> Галерея</h1>
+
+              <div class="swiper swiper-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide swiper-slider-slide">
+                    <img src="./images/slider.jpg" alt="" />
+                  </div>
+
+                  <div class="swiper-slide swiper-slider-slide">
+                    <img src="./images/slider-1.jpg" alt="" />
+                  </div>
+
+                  <div class="swiper-slide swiper-slider-slide">
+                    <img src="./images/slider.jpg" alt="" />
+                  </div>
+
+                  <div class="swiper-slide swiper-slider-slide">
+                    <img src="./images/slider-1.jpg" alt="" />
+                  </div>
+
+                  <div class="swiper-slide swiper-slider-slide">
+                    <img src="./images/slider.jpg" alt="" />
+                  </div>
+                </div>
+
+                <div class="swiper-button-prev">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="56"
+                    height="56"
+                    viewBox="0 0 56 56"
+                    fill="none"
+                  >
+                    <mask
+                      id="mask0_247_49"
+                      style="mask-type: alpha"
+                      maskUnits="userSpaceOnUse"
+                      x="0"
+                      y="0"
+                      width="56"
+                      height="56"
+                    >
+                      <rect width="56" height="56" fill="#D9D9D9" />
+                    </mask>
+                    <g mask="url(#mask0_247_49)">
+                      <path
+                        d="M26.3665 35.7003C27.2686 36.6024 28.7311 36.6024 29.6332 35.7003C30.5352 34.7983 30.5352 33.3357 29.6332 32.4337L28.9383 31.7388C28.4198 31.2203 28.7871 30.3337 29.5204 30.3337H34.9998C36.2885 30.3337 37.3332 29.289 37.3332 28.0003C37.3332 26.7117 36.2885 25.667 34.9998 25.667H29.5204C28.7871 25.667 28.4198 24.7804 28.9383 24.2618L29.6332 23.567C30.5352 22.6649 30.5352 21.2024 29.6332 20.3003C28.7311 19.3983 27.2686 19.3983 26.3665 20.3003L21.4949 25.1719C19.9328 26.734 19.9328 29.2667 21.4949 30.8288L26.3665 35.7003ZM27.9998 51.3337C24.7721 51.3337 21.7387 50.7212 18.8998 49.4962C16.0609 48.2712 13.5915 46.6087 11.4915 44.5087C9.3915 42.4087 7.729 39.9392 6.504 37.1003C5.279 34.2614 4.6665 31.2281 4.6665 28.0003C4.6665 24.7725 5.279 21.7392 6.504 18.9003C7.729 16.0614 9.3915 13.592 11.4915 11.492C13.5915 9.39199 16.0609 7.72949 18.8998 6.50449C21.7387 5.27949 24.7721 4.66699 27.9998 4.66699C31.2276 4.66699 34.261 5.27949 37.0998 6.50449C39.9387 7.72949 42.4082 9.39199 44.5082 11.492C46.6082 13.592 48.2707 16.0614 49.4957 18.9003C50.7207 21.7392 51.3332 24.7725 51.3332 28.0003C51.3332 31.2281 50.7207 34.2614 49.4957 37.1003C48.2707 39.9392 46.6082 42.4087 44.5082 44.5087C42.4082 46.6087 39.9387 48.2712 37.0998 49.4962C34.261 50.7212 31.2276 51.3337 27.9998 51.3337Z"
+                        fill="url(#paint0_linear_247_49)"
+                      />
+                      <path
+                        d="M26.3665 35.7003C27.2686 36.6024 28.7311 36.6024 29.6332 35.7003C30.5352 34.7983 30.5352 33.3357 29.6332 32.4337L28.9383 31.7388C28.4198 31.2203 28.7871 30.3337 29.5204 30.3337H34.9998C36.2885 30.3337 37.3332 29.289 37.3332 28.0003C37.3332 26.7117 36.2885 25.667 34.9998 25.667H29.5204C28.7871 25.667 28.4198 24.7804 28.9383 24.2618L29.6332 23.567C30.5352 22.6649 30.5352 21.2024 29.6332 20.3003C28.7311 19.3983 27.2686 19.3983 26.3665 20.3003L21.4949 25.1719C19.9328 26.734 19.9328 29.2667 21.4949 30.8288L26.3665 35.7003Z"
+                        fill="url(#paint1_linear_247_49)"
+                      />
+                      <path
+                        d="M26.3665 35.7003C27.2686 36.6024 28.7311 36.6024 29.6332 35.7003C30.5352 34.7983 30.5352 33.3357 29.6332 32.4337L28.9383 31.7388C28.4198 31.2203 28.7871 30.3337 29.5204 30.3337H34.9998C36.2885 30.3337 37.3332 29.289 37.3332 28.0003C37.3332 26.7117 36.2885 25.667 34.9998 25.667H29.5204C28.7871 25.667 28.4198 24.7804 28.9383 24.2618L29.6332 23.567C30.5352 22.6649 30.5352 21.2024 29.6332 20.3003C28.7311 19.3983 27.2686 19.3983 26.3665 20.3003L21.4949 25.1719C19.9328 26.734 19.9328 29.2667 21.4949 30.8288L26.3665 35.7003Z"
+                        fill="#1A1718"
+                      />
+                    </g>
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_247_49"
+                        x1="51.0005"
+                        y1="28.0005"
+                        x2="5.00049"
+                        y2="28.0005"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#E63C0C" />
+                        <stop offset="1" stop-color="#F4A801" />
+                      </linearGradient>
+                      <linearGradient
+                        id="paint1_linear_247_49"
+                        x1="51.0005"
+                        y1="28.0005"
+                        x2="5.00049"
+                        y2="28.0005"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#E63C0C" />
+                        <stop offset="1" stop-color="#F4A801" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </div>
+
+                <div class="swiper-button-next">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="56"
+                    height="56"
+                    viewBox="0 0 56 56"
+                    fill="none"
+                  >
+                    <mask
+                      id="mask0_247_52"
+                      style="mask-type: alpha"
+                      maskUnits="userSpaceOnUse"
+                      x="0"
+                      y="0"
+                      width="56"
+                      height="56"
+                    >
+                      <rect width="56" height="56" fill="#D9D9D9" />
+                    </mask>
+                    <g mask="url(#mask0_247_52)">
+                      <path
+                        d="M26.3665 35.7003C27.2686 36.6024 28.7311 36.6024 29.6332 35.7003L34.5047 30.8288C36.0668 29.2667 36.0668 26.734 34.5047 25.1719L29.6332 20.3003C28.7311 19.3983 27.2686 19.3983 26.3665 20.3003C25.4644 21.2024 25.4644 22.6649 26.3665 23.567L27.0613 24.2618C27.5799 24.7804 27.2126 25.667 26.4793 25.667H20.9998C19.7112 25.667 18.6665 26.7117 18.6665 28.0003C18.6665 29.289 19.7112 30.3337 20.9998 30.3337H26.4793C27.2126 30.3337 27.5799 31.2203 27.0613 31.7388L26.3665 32.4337C25.4644 33.3357 25.4644 34.7983 26.3665 35.7003ZM27.9998 51.3337C24.7721 51.3337 21.7387 50.7212 18.8998 49.4962C16.0609 48.2712 13.5915 46.6087 11.4915 44.5087C9.3915 42.4087 7.729 39.9392 6.504 37.1003C5.279 34.2614 4.6665 31.2281 4.6665 28.0003C4.6665 24.7725 5.279 21.7392 6.504 18.9003C7.729 16.0614 9.3915 13.592 11.4915 11.492C13.5915 9.39199 16.0609 7.72949 18.8998 6.50449C21.7387 5.27949 24.7721 4.66699 27.9998 4.66699C31.2276 4.66699 34.261 5.27949 37.0998 6.50449C39.9387 7.72949 42.4082 9.39199 44.5082 11.492C46.6082 13.592 48.2707 16.0614 49.4957 18.9003C50.7207 21.7392 51.3332 24.7725 51.3332 28.0003C51.3332 31.2281 50.7207 34.2614 49.4957 37.1003C48.2707 39.9392 46.6082 42.4087 44.5082 44.5087C42.4082 46.6087 39.9387 48.2712 37.0998 49.4962C34.261 50.7212 31.2276 51.3337 27.9998 51.3337Z"
+                        fill="url(#paint0_linear_247_52)"
+                      />
+                      <path
+                        d="M26.3665 35.7003C27.2686 36.6024 28.7311 36.6024 29.6332 35.7003L34.5047 30.8288C36.0668 29.2667 36.0668 26.734 34.5047 25.1719L29.6332 20.3003C28.7311 19.3983 27.2686 19.3983 26.3665 20.3003C25.4644 21.2024 25.4644 22.6649 26.3665 23.567L27.0613 24.2618C27.5799 24.7804 27.2126 25.667 26.4793 25.667H20.9998C19.7112 25.667 18.6665 26.7117 18.6665 28.0003C18.6665 29.289 19.7112 30.3337 20.9998 30.3337H26.4793C27.2126 30.3337 27.5799 31.2203 27.0613 31.7388L26.3665 32.4337C25.4644 33.3357 25.4644 34.7983 26.3665 35.7003Z"
+                        fill="url(#paint1_linear_247_52)"
+                      />
+                      <path
+                        d="M26.3665 35.7003C27.2686 36.6024 28.7311 36.6024 29.6332 35.7003L34.5047 30.8288C36.0668 29.2667 36.0668 26.734 34.5047 25.1719L29.6332 20.3003C28.7311 19.3983 27.2686 19.3983 26.3665 20.3003C25.4644 21.2024 25.4644 22.6649 26.3665 23.567L27.0613 24.2618C27.5799 24.7804 27.2126 25.667 26.4793 25.667H20.9998C19.7112 25.667 18.6665 26.7117 18.6665 28.0003C18.6665 29.289 19.7112 30.3337 20.9998 30.3337H26.4793C27.2126 30.3337 27.5799 31.2203 27.0613 31.7388L26.3665 32.4337C25.4644 33.3357 25.4644 34.7983 26.3665 35.7003Z"
+                        fill="#1A1718"
+                      />
+                    </g>
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_247_52"
+                        x1="51.0005"
+                        y1="28.0005"
+                        x2="5.00049"
+                        y2="28.0005"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#F4A801" />
+                        <stop offset="1" stop-color="#E63C0C" />
+                      </linearGradient>
+                      <linearGradient
+                        id="paint1_linear_247_52"
+                        x1="51.0005"
+                        y1="28.0005"
+                        x2="5.00049"
+                        y2="28.0005"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#F4A801" />
+                        <stop offset="1" stop-color="#E63C0C" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="technologies" id="tech">
+          <div class="container">
+            <div class="technologies__inner">
+              <h1 class="technologies__title title">
+                <span>/</span> Наша техніка
+              </h1>
+
+              <div class="technologies__blocks">
+                <div class="technologies__blocks-item">
+                  <div class="technologies__blocks-icon">
+                    <img src="./images/tech-1.png" alt="" />
+                  </div>
+
+                  <h4 class="technologies__blocks-subtitle">Процесор</h4>
+                  <h2 class="technologies__blocks-title">Ryzen 5 8400F</h2>
+                </div>
+
+                <div class="technologies__blocks-item">
+                  <div class="technologies__blocks-icon">
+                    <img src="./images/tech-2.png" alt="" />
+                  </div>
+
+                  <h4 class="technologies__blocks-subtitle">Відеокартка</h4>
+                  <h2 class="technologies__blocks-title">GF RTX 4060</h2>
+                </div>
+
+                <div class="technologies__blocks-item">
+                  <div class="technologies__blocks-icon">
+                    <img src="./images/tech-3.png" alt="" />
+                  </div>
+
+                  <h4 class="technologies__blocks-subtitle">
+                    Оперативна пам'ять
+                  </h4>
+                  <h2 class="technologies__blocks-title">DDR5 32Gb Apacer</h2>
+                </div>
+
+                <div class="technologies__blocks-item">
+                  <div class="technologies__blocks-icon">
+                    <img src="./images/tech-4.png" alt="" />
+                  </div>
+
+                  <h4 class="technologies__blocks-subtitle">Монітор</h4>
+                  <h2 class="technologies__blocks-title">
+                    MSI G24" + 27" 180Hz
+                  </h2>
+                </div>
+
+                <div class="technologies__blocks-item">
+                  <div class="technologies__blocks-icon">
+                    <img src="./images/tech-5.png" alt="" />
+                  </div>
+
+                  <h4 class="technologies__blocks-subtitle">Периферія</h4>
+                  <h2 class="technologies__blocks-title">HATOR, HyperX</h2>
+                </div>
+
+                <div class="technologies__blocks-item">
+                  <div class="technologies__blocks-icon">
+                    <img src="./images/tech-6.png" alt="" />
+                  </div>
+
+                  <h4 class="technologies__blocks-subtitle">Крісло ігрове</h4>
+                  <h2 class="technologies__blocks-title">HATOR Darkside</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="tarif" id="tarif">
+          <div class="container">
+            <div class="tarif__inner">
+              <h1 class="tarif__title title"><span>/</span> Тарифы</h1>
+
+              <h4 class="tarif__muted">Зона PC</h4>
+
+              <div class="tarif__blocks">
+                <div class="tarif__blocks-item">
+                  <div class="top">
+                    <div class="tarif__blocks-sep" data-percent="10">1</div>
+
+                    <div class="tarif__blocks-hour">год.</div>
+                  </div>
+
+                  <div class="bottom">
+                    <div class="trafic__fps">
+                      <div class="trafic__fps-start">
+                        <h4>FPS</h4>
+                        <p>40₴</p>
+                      </div>
+
+                      <div class="trafic__fps-end">
+                        <h4>FPS+</h4>
+                        <p>50₴</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tarif__blocks-item">
+                  <div class="top">
+                    <div class="tarif__blocks-sep" data-percent="15">2</div>
+
+                    <div class="tarif__blocks-hour">год.</div>
+                  </div>
+
+                  <div class="bottom">
+                    <div class="trafic__fps">
+                      <div class="trafic__fps-start">
+                        <h4>FPS</h4>
+                        <p>70₴</p>
+                      </div>
+
+                      <div class="trafic__fps-end">
+                        <h4>FPS+</h4>
+                        <p>90₴</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tarif__blocks-item">
+                  <div class="top">
+                    <div class="tarif__blocks-sep" data-percent="25">3</div>
+
+                    <div class="tarif__blocks-hour">год.</div>
+                  </div>
+
+                  <div class="bottom">
+                    <div class="trafic__fps">
+                      <div class="trafic__fps-start">
+                        <h4>FPS</h4>
+                        <p>40₴</p>
+                      </div>
+
+                      <div class="trafic__fps-end">
+                        <h4>FPS+</h4>
+                        <p>50₴</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tarif__blocks-item">
+                  <div class="top">
+                    <div class="tarif__blocks-sep" data-percent="30">4</div>
+
+                    <div class="tarif__blocks-hour">год.</div>
+                  </div>
+
+                  <div class="bottom">
+                    <div class="trafic__fps">
+                      <div class="trafic__fps-start">
+                        <h4>FPS</h4>
+                        <p>70₴</p>
+                      </div>
+
+                      <div class="trafic__fps-end">
+                        <h4>FPS+</h4>
+                        <p>90₴</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tarif__blocks-item">
+                  <div class="top">
+                    <div class="tarif__blocks-sep" data-percent="40">5</div>
+
+                    <div class="tarif__blocks-hour">год.</div>
+                  </div>
+
+                  <div class="bottom">
+                    <div class="trafic__fps">
+                      <div class="trafic__fps-start">
+                        <h4>FPS</h4>
+                        <p>40₴</p>
+                      </div>
+
+                      <div class="trafic__fps-end">
+                        <h4>FPS+</h4>
+                        <p>50₴</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tarif__blocks-item">
+                  <div class="top">
+                    <div class="tarif__blocks-sep" data-percent="70">6</div>
+
+                    <div class="tarif__blocks-hour">год.</div>
+                  </div>
+
+                  <div class="bottom">
+                    <div class="trafic__fps">
+                      <div class="trafic__fps-start">
+                        <h4>FPS</h4>
+                        <p>70₴</p>
+                      </div>
+
+                      <div class="trafic__fps-end">
+                        <h4>FPS+</h4>
+                        <p>90₴</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tarif__blocks-item">
+                  <div class="top">
+                    <div class="tarif__blocks-sep" data-percent="80">8</div>
+
+                    <div class="tarif__blocks-hour">год.</div>
+                  </div>
+
+                  <div class="bottom">
+                    <div class="trafic__fps">
+                      <div class="trafic__fps-start">
+                        <h4>FPS</h4>
+                        <p>40₴</p>
+                      </div>
+
+                      <div class="trafic__fps-end">
+                        <h4>FPS+</h4>
+                        <p>50₴</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tarif__blocks-item">
+                  <div class="top">
+                    <div class="tarif__blocks-sep" data-percent="90">10</div>
+
+                    <div class="tarif__blocks-hour">год.</div>
+                  </div>
+
+                  <div class="bottom">
+                    <div class="trafic__fps">
+                      <div class="trafic__fps-start">
+                        <h4>FPS</h4>
+                        <p>70₴</p>
+                      </div>
+
+                      <div class="trafic__fps-end">
+                        <h4>FPS+</h4>
+                        <p>90₴</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tarif__blocks-item">
+                  <div class="top">
+                    <div class="tarif__blocks-sep" data-percent="100">12</div>
+
+                    <div class="tarif__blocks-hour">год.</div>
+                  </div>
+
+                  <div class="bottom">
+                    <div class="trafic__fps">
+                      <div class="trafic__fps-start">
+                        <h4>FPS</h4>
+                        <p>70₴</p>
+                      </div>
+
+                      <div class="trafic__fps-end">
+                        <h4>FPS+</h4>
+                        <p>90₴</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <h4 class="tarif__muted">Пакети</h4>
+
+              <div class="package__blocks">
+                <div class="package__blocks-item">
+                  <div class="top">
+                    <h3 class="package__blocks-title"><span>/</span> Ніч</h3>
+
+                    <p class="package__blocks-hour">з 21:00 до 7:30</p>
+
+                    <div class="bottom">
+                      <div class="trafic__fps">
+                        <div class="trafic__fps-start">
+                          <h4>FPS</h4>
+                          <p>200₴</p>
+                        </div>
+
+                        <div class="trafic__fps-end">
+                          <h4>FPS+</h4>
+                          <p>250₴</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tarif__info">
+                <h3 class="tarif__info-title">
+                  / Накопичувальна система для постійних клієнтів
+                </h3>
+
+                <h5 class="tarif__info-subtitle">
+                  Ставай учасником програми лояльності та отримуй більше з
+                  кожної гри!
+                </h5>
+
+                <div class="tarif__bonus">
+                  <h3 class="tarif__bonus-title">Бонуси при реєстрації:</h3>
+
+                  <ul class="tarif__bonus_list list-reset">
+                    <li class="tarif__bonus_list-item">
+                      <div class="icon">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="17"
+                          height="17"
+                          viewBox="0 0 17 17"
+                          fill="none"
+                        >
+                          <mask
+                            id="mask0_14_107414"
+                            style="mask-type: alpha"
+                            maskUnits="userSpaceOnUse"
+                            x="0"
+                            y="0"
+                            width="17"
+                            height="17"
+                          >
+                            <rect
+                              width="17"
+                              height="17"
+                              fill="url(#paint0_linear_14_107414)"
+                            />
+                          </mask>
+                          <g mask="url(#mask0_14_107414)">
+                            <path
+                              d="M6.76406 12.7501L2.72656 8.71263L3.73594 7.70326L6.76406 10.7314L13.263 4.23242L14.2724 5.2418L6.76406 12.7501Z"
+                              fill="url(#paint1_linear_14_107414)"
+                            />
+                          </g>
+                          <defs>
+                            <linearGradient
+                              id="paint0_linear_14_107414"
+                              x1="8.5"
+                              y1="12"
+                              x2="8.5"
+                              y2="3.75"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#E63C0C" />
+                              <stop offset="1" stop-color="#F4A801" />
+                            </linearGradient>
+                            <linearGradient
+                              id="paint1_linear_14_107414"
+                              x1="8.49976"
+                              y1="13"
+                              x2="8.49976"
+                              y2="4"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#E63C0C" />
+                              <stop offset="1" stop-color="#F4A801" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </div>
+
+                      <span
+                        >Знижка 10% на всі вільні години вже з першого
+                        візиту</span
+                      >
+                    </li>
+
+                    <li class="tarif__bonus_list-item">
+                      <div class="icon">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="17"
+                          height="17"
+                          viewBox="0 0 17 17"
+                          fill="none"
+                        >
+                          <mask
+                            id="mask0_14_107414"
+                            style="mask-type: alpha"
+                            maskUnits="userSpaceOnUse"
+                            x="0"
+                            y="0"
+                            width="17"
+                            height="17"
+                          >
+                            <rect
+                              width="17"
+                              height="17"
+                              fill="url(#paint0_linear_14_107414)"
+                            />
+                          </mask>
+                          <g mask="url(#mask0_14_107414)">
+                            <path
+                              d="M6.76406 12.7501L2.72656 8.71263L3.73594 7.70326L6.76406 10.7314L13.263 4.23242L14.2724 5.2418L6.76406 12.7501Z"
+                              fill="url(#paint1_linear_14_107414)"
+                            />
+                          </g>
+                          <defs>
+                            <linearGradient
+                              id="paint0_linear_14_107414"
+                              x1="8.5"
+                              y1="12"
+                              x2="8.5"
+                              y2="3.75"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#E63C0C" />
+                              <stop offset="1" stop-color="#F4A801" />
+                            </linearGradient>
+                            <linearGradient
+                              id="paint1_linear_14_107414"
+                              x1="8.49976"
+                              y1="13"
+                              x2="8.49976"
+                              y2="4"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#E63C0C" />
+                              <stop offset="1" stop-color="#F4A801" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </div>
+
+                      <span>Знижка 5% на нічні пакети</span>
+                    </li>
+
+                    <li class="tarif__bonus_list-item">
+                      <div class="icon">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="17"
+                          height="17"
+                          viewBox="0 0 17 17"
+                          fill="none"
+                        >
+                          <mask
+                            id="mask0_14_107414"
+                            style="mask-type: alpha"
+                            maskUnits="userSpaceOnUse"
+                            x="0"
+                            y="0"
+                            width="17"
+                            height="17"
+                          >
+                            <rect
+                              width="17"
+                              height="17"
+                              fill="url(#paint0_linear_14_107414)"
+                            />
+                          </mask>
+                          <g mask="url(#mask0_14_107414)">
+                            <path
+                              d="M6.76406 12.7501L2.72656 8.71263L3.73594 7.70326L6.76406 10.7314L13.263 4.23242L14.2724 5.2418L6.76406 12.7501Z"
+                              fill="url(#paint1_linear_14_107414)"
+                            />
+                          </g>
+                          <defs>
+                            <linearGradient
+                              id="paint0_linear_14_107414"
+                              x1="8.5"
+                              y1="12"
+                              x2="8.5"
+                              y2="3.75"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#E63C0C" />
+                              <stop offset="1" stop-color="#F4A801" />
+                            </linearGradient>
+                            <linearGradient
+                              id="paint1_linear_14_107414"
+                              x1="8.49976"
+                              y1="13"
+                              x2="8.49976"
+                              y2="4"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#E63C0C" />
+                              <stop offset="1" stop-color="#F4A801" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </div>
+
+                      <span>Знижка 5% на пакети від 4 до 12 годин</span>
+                    </li>
+                  </ul>
+
+                  <ul class="tarif__bonus_info list-reset">
+                    <li class="tarif__bonus_info-item">
+                      <h3 class="tarif__bonus_info-title">
+                        Як отримати карту постійного клієнта:
+                      </h3>
+                      <p class="tarif__bonus_info-subtitle">
+                        Зверніться до адміністратора клубу — реєстрація займає
+                        всього до 5 хвилин. Ви отримаєте персональний логін та
+                        пароль доступу.
+                      </p>
+                    </li>
+
+                    <li class="tarif__bonus_info-item">
+                      <h3 class="tarif__bonus_info-title">Статус "Платина":</h3>
+                      <p class="tarif__bonus_info-subtitle">
+                        При досягненні певного рівня витрат — додатковий кешбек
+                        10% на бонусний рахунок.
+                      </p>
+                    </li>
+                  </ul>
+
+                  <p class="tarif__bonus-muted">
+                    Кошти, витрачені на пакетні пропозиції (наприклад, 2 години,
+                    денний або нічний пакети), не підлягають поверненню.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="tarif" id="services">
+          <div class="container">
+            <div class="tarif__inner">
+              <h1 class="tarif__title title"><span>/</span> Послуги</h1>
+
+              <h4 class="tarif__muted">Пакети</h4>
+
+              <div class="package__blocks services__blocks">
+                <div class="package__blocks-item">
+                  <div class="top">
+                    <h3 class="package__blocks-title services__fps-title">
+                      <span>/</span> ксерокс а4
+                    </h3>
+
+                    <p class="package__blocks-hour">1-стор.</p>
+
+                    <div class="bottom">
+                      <div class="trafic__fps services__fps">
+                        <div class="trafic__fps-start">
+                          <p>3.50₴</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="package__blocks-item">
+                  <div class="top">
+                    <h3 class="package__blocks-title services__fps-title">
+                      <span>/</span> ксерокс а3
+                    </h3>
+
+                    <p class="package__blocks-hour">1-стор.</p>
+
+                    <div class="bottom">
+                      <div class="trafic__fps services__fps">
+                        <div class="trafic__fps-start">
+                          <p>8.00₴</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="package__blocks-item">
+                  <div class="top">
+                    <h3 class="package__blocks-title services__fps-title">
+                      <span>/</span> друк
+                    </h3>
+
+                    <p class="package__blocks-hour">1-стор.</p>
+
+                    <div class="bottom">
+                      <div class="trafic__fps services__fps">
+                        <div class="trafic__fps-start">
+                          <h3 class="muted-a4">A4</h3>
+                          <p>3.50₴</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="package__blocks-item">
+                  <div class="top">
+                    <h3 class="package__blocks-title services__fps-title">
+                      <span>/</span> кольоровий друк
+                    </h3>
+
+                    <p class="package__blocks-hour">1-стор.</p>
+
+                    <div class="bottom">
+                      <div class="trafic__fps services__fps">
+                        <div class="trafic__fps-start">
+                          <h3 class="muted-a4">А4</h3>
+                          <p>20.00₴</p>
+                        </div>
+
+                        <div class="trafic__fps-end">
+                          <h3 class="muted-a4">А3</h3>
+                          <p>40.00₴</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="package__blocks-item">
+                  <div class="top">
+                    <h3 class="package__blocks-title services__fps-title">
+                      <span>/</span> Фотопапір
+                    </h3>
+
+                    <p class="package__blocks-hour">1-стор.</p>
+
+                    <div class="bottom">
+                      <div class="trafic__fps services__fps">
+                        <div class="trafic__fps-start">
+                          <h3 class="muted-a4">10*15</h3>
+                          <p>15.00₴</p>
+                        </div>
+
+                        <div class="trafic__fps-end">
+                          <h3 class="muted-a4">А4/А3</h3>
+                          <p>40/60.00₴</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <h4 class="tarif__muted">Оформлення документів</h4>
+
+              <div class="package__blocks services__blocks services__blocks-1">
+                <div class="package__blocks-item">
+                  <div class="top">
+                    <h3 class="package__blocks-title services__fps-title">
+                      <span>/</span> мʼяка обкладинка
+                    </h3>
+
+                    <p class="package__blocks-hour">(від 50 арк. + 10 грн)</p>
+
+                    <div class="bottom">
+                      <div class="trafic__fps services__fps">
+                        <div class="trafic__fps-start">
+                          <p>50.00 - 150.00₴</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="package__blocks-item">
+                  <div class="top">
+                    <h3 class="package__blocks-title services__fps-title">
+                      <span>/</span> тверда обкладинка
+                    </h3>
+
+                    <div class="package--lists">
+                      <div class="item">
+                        <p class="package__blocks-hour">до 50арк.</p>
+
+                        <div class="bottom">
+                          <div class="trafic__fps services__fps">
+                            <div class="trafic__fps-start">
+                              <p>220.00₴</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <p class="package__blocks-hour">від 50 до 100 арк.</p>
+
+                        <div class="bottom">
+                          <div class="trafic__fps services__fps">
+                            <div class="trafic__fps-start">
+                              <p>250.00₴</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <p class="package__blocks-hour">від 110 до 270 арк..</p>
+
+                        <div class="bottom">
+                          <div class="trafic__fps services__fps">
+                            <div class="trafic__fps-start">
+                              <p>280/300.00₴</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <p class="package__blocks-hour">дод. розб</p>
+
+                        <div class="bottom">
+                          <div class="trafic__fps services__fps">
+                            <div class="trafic__fps-start">
+                              <p>50.00₴</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="package__blocks-item">
+                  <div class="top">
+                    <h3 class="package__blocks-title services__fps-title">
+                      <span>/</span> ламінування
+                    </h3>
+
+                    <div class="package--lists">
+                      <div class="item">
+                        <p class="package__blocks-hour">А5</p>
+
+                        <div class="bottom">
+                          <div class="trafic__fps services__fps">
+                            <div class="trafic__fps-start">
+                              <p>20.00₴</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <p class="package__blocks-hour">А4</p>
+
+                        <div class="bottom">
+                          <div class="trafic__fps services__fps">
+                            <div class="trafic__fps-start">
+                              <p>30.00₴</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <p class="package__blocks-hour">А3</p>
+
+                        <div class="bottom">
+                          <div class="trafic__fps services__fps">
+                            <div class="trafic__fps-start">
+                              <p>60.00₴</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <h4 class="tarif__muted">Оформлення документів</h4>
+
+              <div class="package__blocks services__blocks services__blocks-2">
+                <div class="package__blocks-item">
+                  <div class="top">
+                    <h3 class="package__blocks-title services__fps-title">
+                      <span>/</span> мʼяка обкладинка
+                    </h3>
+
+                    <p class="package__blocks-hour">(від 50 арк. + 10 грн)</p>
+
+                    <div class="bottom">
+                      <div class="trafic__fps services__fps">
+                        <div class="trafic__fps-start">
+                          <p>50.00 - 150.00₴</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="package__blocks-item package__blocks-sep">
+                  <div class="top">
+                    <div class="top-sep">
+                      <h3 class="package__blocks-title services__fps-title">
+                        <span>/</span> тверда обкладинка
+                      </h3>
+
+                      <p>(додатково розб - сборка 50 грн)</p>
+                    </div>
+
+                    <div class="package--lists">
+                      <div class="item">
+                        <p class="package__blocks-hour">до 50арк.</p>
+
+                        <div class="bottom">
+                          <div class="trafic__fps services__fps">
+                            <div class="trafic__fps-start">
+                              <p>220.00₴</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <p class="package__blocks-hour">від 50 до 100 арк.</p>
+
+                        <div class="bottom">
+                          <div class="trafic__fps services__fps">
+                            <div class="trafic__fps-start">
+                              <p>250.00₴</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <p class="package__blocks-hour">від 110 до 270 арк..</p>
+
+                        <div class="bottom">
+                          <div class="trafic__fps services__fps">
+                            <div class="trafic__fps-start">
+                              <p>280/300.00₴</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <p class="package__blocks-hour">дод. розб</p>
+
+                        <div class="bottom">
+                          <div class="trafic__fps services__fps">
+                            <div class="trafic__fps-start">
+                              <p>50.00₴</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="package__blocks-item">
+                  <div class="top">
+                    <h3 class="package__blocks-title services__fps-title">
+                      <span>/</span> ламінування
+                    </h3>
+
+                    <div class="package--lists">
+                      <div class="item">
+                        <p class="package__blocks-hour">А5</p>
+
+                        <div class="bottom">
+                          <div class="trafic__fps services__fps">
+                            <div class="trafic__fps-start">
+                              <p>20.00₴</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <p class="package__blocks-hour">А4</p>
+
+                        <div class="bottom">
+                          <div class="trafic__fps services__fps">
+                            <div class="trafic__fps-start">
+                              <p>30.00₴</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <p class="package__blocks-hour">А3</p>
+
+                        <div class="bottom">
+                          <div class="trafic__fps services__fps">
+                            <div class="trafic__fps-start">
+                              <p>60.00₴</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <h4 class="tarif__muted">Комп'ютерні послуги</h4>
+
+              <div class="package__blocks services__blocks services__blocks-3">
+                <div class="package__blocks-item">
+                  <div class="top">
+                    <h3 class="package__blocks-title services__fps-title">
+                      <span>/</span> пошук
+                    </h3>
+
+                    <div class="package--lists">
+                      <div class="item">
+                        <p class="package__blocks-hour">(Пошук інформації)</p>
+
+                        <div class="bottom">
+                          <div class="trafic__fps services__fps">
+                            <div class="trafic__fps-start">
+                              <p>30.00 - 100.00₴</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="package__blocks-item">
+                  <div class="top">
+                    <h3 class="package__blocks-title services__fps-title">
+                      <span>/</span> Завантаження
+                    </h3>
+
+                    <div class="package--lists">
+                      <div class="item">
+                        <p class="package__blocks-hour">(фільми / музика)</p>
+
+                        <div class="bottom">
+                          <div class="trafic__fps services__fps">
+                            <div class="trafic__fps-start">
+                              <p>1 фільм - 20.00₴</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="package__blocks-item">
+                  <div class="top">
+                    <h3 class="package__blocks-title services__fps-title">
+                      <span>/</span> Запис
+                    </h3>
+
+                    <div class="package--lists">
+                      <div class="item">
+                        <p class="package__blocks-hour">Flash</p>
+
+                        <div class="bottom">
+                          <div class="trafic__fps services__fps">
+                            <div class="trafic__fps-start">
+                              <p>10.00₴</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <p class="package__blocks-hour">cd</p>
+
+                        <div class="bottom">
+                          <div class="trafic__fps services__fps">
+                            <div class="trafic__fps-start">
+                              <p>25.00₴</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <p class="package__blocks-hour">dvd</p>
+
+                        <div class="bottom">
+                          <div class="trafic__fps services__fps">
+                            <div class="trafic__fps-start">
+                              <p>30.00₴</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="package__blocks-item">
+                  <div class="top">
+                    <h3 class="package__blocks-title services__fps-title">
+                      <span>/</span> Набір тексту
+                    </h3>
+
+                    <div class="package--lists">
+                      <div class="item">
+                        <p class="package__blocks-hour">
+                          (Залежно від складності)
+                        </p>
+
+                        <div class="bottom">
+                          <div class="trafic__fps services__fps">
+                            <div class="trafic__fps-start">
+                              <p>50.00 - 300.00₴ / 1 ст.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="package__blocks-item">
+                  <div class="top">
+                    <h3 class="package__blocks-title services__fps-title">
+                      <span>/</span> Сканування
+                    </h3>
+
+                    <div class="package--lists">
+                      <div class="item">
+                        <p class="package__blocks-hour">
+                          (один прохід сканеру)
+                        </p>
+
+                        <div class="bottom">
+                          <div class="trafic__fps services__fps">
+                            <div class="trafic__fps-start">
+                              <p>15.00₴</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="package__blocks-item">
+                  <div class="top">
+                    <h3 class="package__blocks-title services__fps-title">
+                      <span>/</span> конвертація
+                    </h3>
+
+                    <div class="package--lists">
+                      <div class="item">
+                        <p class="package__blocks-hour">PDF/JPG у WORD</p>
+
+                        <div class="bottom">
+                          <div class="trafic__fps services__fps">
+                            <div class="trafic__fps-start">
+                              <p>30.00₴</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <h4 class="tarif__muted">Додаткові послуги</h4>
+
+              <div class="package__blocks services__blocks services__blocks-3">
+                <div class="package__blocks-item">
+                  <div class="top">
+                    <h3 class="package__blocks-title services__fps-title">
+                      <span>/</span> фотопослуги
+                    </h3>
+
+                    <div class="package--lists">
+                      <div class="item">
+                        <p class="package__blocks-hour">(6 фото)</p>
+
+                        <div class="bottom">
+                          <div class="trafic__fps services__fps">
+                            <div class="trafic__fps-start">
+                              <p>130.00₴</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="package__blocks-item">
+                  <div class="top">
+                    <h3 class="package__blocks-title services__fps-title">
+                      <span>/</span> Допомога
+                    </h3>
+
+                    <div class="package--lists">
+                      <div class="item">
+                        <p class="package__blocks-hour">
+                          (допомога від адміністратора)
+                        </p>
+
+                        <div class="bottom">
+                          <div class="trafic__fps services__fps">
+                            <div class="trafic__fps-start">
+                              <p>300.00₴ / год.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer" id="contact">
+        <div class="container">
+          <div class="footer__inner">
+            <h1 class="footer__title title"><span>/</span> Контакти</h1>
+
+            <div class="footer__content">
+              <div class="footer__start">
+                <div class="top">
+                  <div class="footer__info">
+                    <div class="footer__info-item">
+                      <div class="start">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                        >
+                          <mask
+                            id="mask0_14_107586"
+                            style="mask-type: alpha"
+                            maskUnits="userSpaceOnUse"
+                            x="0"
+                            y="0"
+                            width="24"
+                            height="24"
+                          >
+                            <rect width="24" height="24" fill="#D9D9D9" />
+                          </mask>
+                          <g mask="url(#mask0_14_107586)">
+                            <path
+                              d="M12.0005 12C12.5505 12 13.0213 11.8042 13.413 11.4125C13.8047 11.0208 14.0005 10.55 14.0005 10C14.0005 9.45 13.8047 8.97917 13.413 8.5875C13.0213 8.19583 12.5505 8 12.0005 8C11.4505 8 10.9797 8.19583 10.588 8.5875C10.1963 8.97917 10.0005 9.45 10.0005 10C10.0005 10.55 10.1963 11.0208 10.588 11.4125C10.9797 11.8042 11.4505 12 12.0005 12ZM12.6447 21.4435C12.276 21.7669 11.725 21.7669 11.3562 21.4435C8.99412 19.3711 7.20471 17.4358 5.98799 15.6375C4.66299 13.6792 4.00049 11.8667 4.00049 10.2C4.00049 7.7 4.80466 5.70833 6.41299 4.225C8.02132 2.74167 9.88382 2 12.0005 2C14.1172 2 15.9797 2.74167 17.588 4.225C19.1963 5.70833 20.0005 7.7 20.0005 10.2C20.0005 11.8667 19.338 13.6792 18.013 15.6375C16.7963 17.4358 15.0069 19.3711 12.6447 21.4435Z"
+                              fill="url(#paint0_linear_14_107586)"
+                            />
+                          </g>
+                          <defs>
+                            <linearGradient
+                              id="paint0_linear_14_107586"
+                              x1="12.0005"
+                              y1="22"
+                              x2="12.0005"
+                              y2="2.00049"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#E63C0C" />
+                              <stop offset="1" stop-color="#F4A801" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </div>
+
+                      <div class="end">
+                        <h4 class="footer__info-title">Локація</h4>
+                        <p class="footer__info-subtitle">
+                          м. Дніпро, проспект Науки 31( Бункер )
+                        </p>
+                      </div>
+                    </div>
+
+                    <h3 class="footer__info-desc">Режим роботи: Цілодобово</h3>
+
+                    <div class="footer__info-item">
+                      <div class="start">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                        >
+                          <mask
+                            id="mask0_14_107595"
+                            style="mask-type: alpha"
+                            maskUnits="userSpaceOnUse"
+                            x="0"
+                            y="0"
+                            width="24"
+                            height="24"
+                          >
+                            <rect width="24" height="24" fill="#D9D9D9" />
+                          </mask>
+                          <g mask="url(#mask0_14_107595)">
+                            <path
+                              d="M20 11.9502C19.4477 11.9502 19.0081 11.5004 18.9375 10.9527C18.7412 9.42975 18.0829 8.10809 16.9625 6.9877C15.8421 5.8673 14.5205 5.20898 12.9975 5.01272C12.4498 4.94213 12 4.50248 12 3.9502C12 3.39791 12.449 2.94393 12.9982 3.00246C13.8784 3.09626 14.7165 3.31634 15.5125 3.6627C16.6042 4.1377 17.5542 4.77936 18.3625 5.5877C19.1708 6.39603 19.8125 7.34603 20.2875 8.4377C20.6339 9.2337 20.8539 10.0718 20.9477 10.952C21.0063 11.5012 20.5523 11.9502 20 11.9502ZM16 11.9502C15.4477 11.9502 15.0218 11.4901 14.8457 10.9666C14.7036 10.5441 14.4634 10.1636 14.125 9.8252C13.7866 9.4868 13.4061 9.24655 12.9836 9.10446C12.4601 8.92843 12 8.50248 12 7.9502C12 7.39791 12.4518 6.93801 12.9945 7.0407C13.9574 7.22291 14.805 7.68024 15.5375 8.4127C16.27 9.14515 16.7273 9.99283 16.9095 10.9557C17.0122 11.4984 16.5523 11.9502 16 11.9502ZM19.95 21.0002C17.8667 21.0002 15.8083 20.546 13.775 19.6377C11.7417 18.7294 9.89167 17.4419 8.225 15.7752C6.55833 14.1085 5.27083 12.2585 4.3625 10.2252C3.45417 8.19186 3 6.13353 3 4.0502C3 3.7502 3.1 3.5002 3.3 3.3002C3.5 3.1002 3.75 3.0002 4.05 3.0002H8.1C8.33333 3.0002 8.54167 3.07936 8.725 3.2377C8.90833 3.39603 9.01667 3.58353 9.05 3.8002L9.7 7.3002C9.73333 7.56686 9.725 7.79186 9.675 7.9752C9.625 8.15853 9.53333 8.31686 9.4 8.4502L7.49648 10.3733C7.18674 10.6863 7.11454 11.1674 7.34826 11.5405C7.59329 11.9317 7.8647 12.3141 8.1625 12.6877C8.62083 13.2627 9.125 13.8169 9.675 14.3502C10.1917 14.8669 10.7333 15.346 11.3 15.7877C11.6675 16.0741 12.049 16.3448 12.4445 16.5996C12.8253 16.845 13.3229 16.7773 13.6433 16.4569L15.45 14.6502C15.6 14.5002 15.7958 14.3877 16.0375 14.3127C16.2792 14.2377 16.5167 14.2169 16.75 14.2502L20.2 14.9502C20.4333 15.0169 20.625 15.1377 20.775 15.3127C20.925 15.4877 21 15.6835 21 15.9002V19.9502C21 20.2502 20.9 20.5002 20.7 20.7002C20.5 20.9002 20.25 21.0002 19.95 21.0002Z"
+                              fill="url(#paint0_linear_14_107595)"
+                            />
+                          </g>
+                          <defs>
+                            <linearGradient
+                              id="paint0_linear_14_107595"
+                              x1="12"
+                              y1="21.0002"
+                              x2="12"
+                              y2="2.95064"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#E63C0C" />
+                              <stop offset="1" stop-color="#F4A801" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </div>
+
+                      <div class="end">
+                        <h4 class="footer__info-title">Телефон</h4>
+                        <p class="footer__info-subtitle">+38 (050) 189 05 95</p>
+                      </div>
+                    </div>
+
+                    <div class="footer__info-item">
+                      <div class="start">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                        >
+                          <mask
+                            id="mask0_14_107602"
+                            style="mask-type: alpha"
+                            maskUnits="userSpaceOnUse"
+                            x="0"
+                            y="0"
+                            width="24"
+                            height="24"
+                          >
+                            <rect
+                              width="24"
+                              height="24"
+                              fill="url(#paint0_linear_14_107602)"
+                            />
+                          </mask>
+                          <g mask="url(#mask0_14_107602)">
+                            <path
+                              d="M4 20C3.45 20 2.97917 19.8042 2.5875 19.4125C2.19583 19.0208 2 18.55 2 18V6C2 5.45 2.19583 4.97917 2.5875 4.5875C2.97917 4.19583 3.45 4 4 4H20C20.55 4 21.0208 4.19583 21.4125 4.5875C21.8042 4.97917 22 5.45 22 6V18C22 18.55 21.8042 19.0208 21.4125 19.4125C21.0208 19.8042 20.55 20 20 20H4ZM12.53 12.6688C12.2057 12.8714 11.7943 12.8714 11.47 12.6688L4 8V18H19C19.5523 18 20 17.5523 20 17V8L12.53 12.6688ZM11.47 10.6688C11.7943 10.8714 12.2057 10.8714 12.53 10.6688L20 6H4L11.47 10.6688ZM4 8V6V18V8Z"
+                              fill="url(#paint1_linear_14_107602)"
+                            />
+                          </g>
+                          <defs>
+                            <linearGradient
+                              id="paint0_linear_14_107602"
+                              x1="12"
+                              y1="24"
+                              x2="12"
+                              y2="0.000585658"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#E63C0C" />
+                              <stop offset="1" stop-color="#F4A801" />
+                            </linearGradient>
+                            <linearGradient
+                              id="paint1_linear_14_107602"
+                              x1="12"
+                              y1="20"
+                              x2="12"
+                              y2="4.00039"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#E63C0C" />
+                              <stop offset="1" stop-color="#F4A801" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </div>
+
+                      <div class="end">
+                        <h4 class="footer__info-title">Пошта</h4>
+                        <p class="footer__info-subtitle">
+                          ottavio.club@gmail.com
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="bottom">
+                  <div class="footer-social">
+                    <h2 class="footer-social__title">Соціальні мережі</h2>
+
+                    <ul class="footer-social__list list-reset">
+                      <li class="footer-social__list-item">
+                        <a href="#!" class="footer-social__list-link">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="27"
+                            height="26"
+                            viewBox="0 0 27 26"
+                            fill="none"
+                          >
+                            <g clip-path="url(#clip0_247_9)">
+                              <path
+                                d="M13.2998 26C20.4795 26 26.2998 20.1797 26.2998 13C26.2998 5.82031 20.4795 0 13.2998 0C6.12011 0 0.299805 5.82031 0.299805 13C0.299805 20.1797 6.12011 26 13.2998 26Z"
+                                fill="white"
+                              />
+                              <path
+                                d="M5.7106 12.8879C5.7106 12.8879 12.2106 10.2203 14.4649 9.28102C15.3291 8.90532 18.2597 7.70297 18.2597 7.70297C18.2597 7.70297 19.6123 7.17699 19.4996 8.45443C19.462 8.98046 19.1614 10.8215 18.8609 12.8128C18.41 15.6307 17.9216 18.7116 17.9216 18.7116C17.9216 18.7116 17.8464 19.5758 17.2077 19.7261C16.569 19.8764 15.5169 19.2001 15.3291 19.0498C15.1788 18.9371 12.5112 17.2463 11.5343 16.4197C11.2713 16.1943 10.9707 15.7435 11.5718 15.2174C12.9245 13.9776 14.54 12.4371 15.5169 11.4602C15.9678 11.0093 16.4186 9.95733 14.54 11.2348C11.8724 13.0758 9.24239 14.8041 9.24239 14.8041C9.24239 14.8041 8.64122 15.1798 7.51406 14.8417C6.38686 14.5036 5.07183 14.0527 5.07183 14.0527C5.07183 14.0527 4.17015 13.4891 5.7106 12.8879Z"
+                                fill="url(#paint0_linear_247_9)"
+                              />
+                            </g>
+                            <defs>
+                              <linearGradient
+                                id="paint0_linear_247_9"
+                                x1="12.1579"
+                                y1="7.5957"
+                                x2="12.1579"
+                                y2="19.7477"
+                                gradientUnits="userSpaceOnUse"
+                              >
+                                <stop stop-color="#019CEA" />
+                                <stop offset="1" stop-color="#0194DF" />
+                              </linearGradient>
+                              <clipPath id="clip0_247_9">
+                                <rect
+                                  width="26"
+                                  height="26"
+                                  fill="white"
+                                  transform="translate(0.299805)"
+                                />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </a>
+                      </li>
+
+                      <li class="footer-social__list-item">
+                        <a href="#!" class="footer-social__list-link">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="27"
+                            height="26"
+                            viewBox="0 0 27 26"
+                            fill="none"
+                          >
+                            <path
+                              d="M8.54479 0C4.34841 0 0.899902 3.44389 0.899902 7.64489V18.3551C0.899902 22.5515 4.34379 26 8.54479 26H19.255C23.4514 26 26.8999 22.5561 26.8999 18.3551V7.64489C26.8999 3.44851 23.456 0 19.255 0H8.54479ZM8.54479 2.36364H19.255C22.1772 2.36364 24.5363 4.72266 24.5363 7.64489V18.3551C24.5363 21.2773 22.1772 23.6364 19.255 23.6364H8.54479C5.62256 23.6364 3.26354 21.2773 3.26354 18.3551V7.64489C3.26354 4.72266 5.62256 2.36364 8.54479 2.36364ZM20.88 4.94886C20.2845 4.94886 19.809 5.42436 19.809 6.01989C19.809 6.61541 20.2845 7.09091 20.88 7.09091C21.4755 7.09091 21.951 6.61541 21.951 6.01989C21.951 5.42436 21.4755 4.94886 20.88 4.94886ZM13.8999 5.90909C9.99898 5.90909 6.80899 9.09908 6.80899 13C6.80899 16.9009 9.99898 20.0909 13.8999 20.0909C17.8008 20.0909 20.9908 16.9009 20.9908 13C20.9908 9.09908 17.8008 5.90909 13.8999 5.90909ZM13.8999 8.27273C16.5267 8.27273 18.6272 10.3732 18.6272 13C18.6272 15.6268 16.5267 17.7273 13.8999 17.7273C11.2731 17.7273 9.17263 15.6268 9.17263 13C9.17263 10.3732 11.2731 8.27273 13.8999 8.27273Z"
+                              fill="white"
+                            />
+                          </svg>
+                        </a>
+                      </li>
+
+                      <li class="footer-social__list-item">
+                        <a href="#!" class="footer-social__list-link">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="27"
+                            height="26"
+                            viewBox="0 0 27 26"
+                            fill="none"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M22.7102 3.77837C20.2663 1.34316 17.0161 0.00136875 13.5533 0C6.41835 0 0.611394 5.7792 0.608538 12.8828C0.607587 15.1535 1.20368 17.37 2.33641 19.3237L0.5 26L7.3622 24.2085C9.25286 25.2348 11.3816 25.7757 13.5481 25.7766H13.5534C20.6876 25.7766 26.4951 19.9967 26.498 12.8931C26.4994 9.45056 25.1542 6.21358 22.7102 3.77837ZM13.5534 23.6006H13.549C11.6185 23.5999 9.72488 23.0837 8.07301 22.108L7.6801 21.8759L3.60802 22.9391L4.69496 18.9876L4.43911 18.5824C3.36211 16.8775 2.79326 14.9069 2.79411 12.8836C2.79647 6.97938 7.62303 2.17596 13.5577 2.17596C16.4314 2.17704 19.1328 3.29236 21.1642 5.31642C23.1955 7.34048 24.3136 10.0309 24.3125 12.8922C24.31 18.7969 19.4835 23.6006 13.5534 23.6006ZM19.455 15.5807C19.1315 15.4196 17.5414 14.6407 17.2449 14.5333C16.9484 14.4259 16.7328 14.3722 16.5171 14.6945C16.3015 15.0167 15.6817 15.7418 15.493 15.9567C15.3043 16.1715 15.1157 16.1984 14.7922 16.0372C14.4688 15.8761 13.4266 15.5362 12.1912 14.4395C11.2297 13.5859 10.5805 12.5316 10.3918 12.2094C10.2032 11.8871 10.3718 11.7129 10.5337 11.5524C10.6792 11.4081 10.8571 11.1764 11.0188 10.9884C11.1805 10.8004 11.2344 10.6661 11.3422 10.4513C11.4501 10.2365 11.3962 10.0485 11.3153 9.88733C11.2344 9.7262 10.5876 8.14169 10.318 7.49715C10.0555 6.86942 9.78886 6.95435 9.59032 6.94453C9.40187 6.93519 9.18603 6.93319 8.97043 6.93319C8.7548 6.93319 8.4044 7.01377 8.10791 7.33602C7.81144 7.65831 6.97592 8.43713 6.97592 10.0216C6.97592 11.6061 8.13487 13.1368 8.29661 13.3517C8.4583 13.5666 10.5773 16.8182 13.8219 18.2126C14.5936 18.5442 15.1961 18.7423 15.6658 18.8907C16.4406 19.1357 17.1457 19.1011 17.7031 19.0182C18.3245 18.9258 19.6167 18.2395 19.8862 17.4875C20.1558 16.7355 20.1558 16.091 20.0749 15.9567C19.9941 15.8224 19.7784 15.7418 19.455 15.5807Z"
+                              fill="white"
+                            />
+                          </svg>
+                        </a>
+                      </li>
+
+                      <li class="footer-social__list-item">
+                        <a href="#!" class="footer-social__list-link">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="27"
+                            height="26"
+                            viewBox="0 0 27 26"
+                            fill="none"
+                          >
+                            <g clip-path="url(#clip0_247_12)">
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M13.1519 0C16.6147 0.00136875 19.8649 1.34316 22.3088 3.77837C24.7528 6.21358 26.098 9.45056 26.0966 12.8931C26.0938 19.9967 20.2863 25.7766 13.1521 25.7766H13.1467C10.9802 25.7757 8.8515 25.2348 6.96084 24.2085L0.0986328 26L1.93504 19.3237C0.802317 17.37 0.206219 15.1535 0.207171 12.8828C0.210026 5.7792 6.01699 0 13.1519 0ZM13.1477 23.6006H13.1521C19.0822 23.6006 23.9086 18.7969 23.9111 12.8922C23.9122 10.0309 22.7941 7.34048 20.7628 5.31642C18.7314 3.29236 16.03 2.17704 13.1563 2.17596C7.22166 2.17596 2.39511 6.97938 2.39274 12.8836C2.3919 14.9069 2.96075 16.8775 4.03774 18.5824L4.29359 18.9876L3.20666 22.9391L7.27873 21.8759L7.67164 22.108C9.32351 23.0837 11.2171 23.5999 13.1477 23.6006Z"
+                                fill="white"
+                              />
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M18.0977 15.8141C17.7301 15.5181 17.3373 15.2525 16.9506 14.9812C16.1794 14.4395 15.474 14.3974 14.8985 15.2688C14.5754 15.7581 14.123 15.7795 13.65 15.5649C12.346 14.9736 11.339 14.0626 10.7492 12.7372C10.4883 12.1508 10.4917 11.625 11.1022 11.2103C11.4254 10.9909 11.751 10.7314 11.725 10.2521C11.691 9.62723 10.1737 7.53885 9.57451 7.31844C9.32658 7.22721 9.07967 7.23315 8.82743 7.31792C7.42246 7.79041 6.84052 8.94587 7.39783 10.314C9.06047 14.3958 11.9864 17.2374 16.0142 18.9717C16.2438 19.0705 16.499 19.11 16.6281 19.1454C17.5451 19.1546 18.6193 18.2711 18.9296 17.3944C19.2282 16.5508 18.597 16.216 18.0977 15.8141ZM13.5816 7.73691C16.5261 8.18972 17.8841 9.58986 18.2591 12.5556C18.2939 12.8296 18.1918 13.2418 18.5827 13.2494C18.9911 13.2572 18.8927 12.851 18.8961 12.5768C18.9307 9.78364 16.4952 7.19424 13.6667 7.09877C13.4533 7.12948 13.0117 6.95161 12.9842 7.42991C12.9659 7.75237 13.3376 7.69939 13.5816 7.73691Z"
+                                fill="white"
+                              />
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M14.1577 8.5504C13.8745 8.51628 13.5006 8.38284 13.4344 8.77582C13.3653 9.1883 13.782 9.14641 14.0498 9.20635C15.8684 9.6128 16.5016 10.2747 16.8011 12.0787C16.8448 12.3417 16.7579 12.7511 17.2049 12.6832C17.5361 12.6328 17.4165 12.2819 17.4441 12.0769C17.4588 10.345 15.9747 8.76858 14.1577 8.5504Z"
+                                fill="white"
+                              />
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M14.3244 9.96613C14.1353 9.9708 13.9498 9.99126 13.8803 10.1933C13.7759 10.4953 13.9954 10.5673 14.2189 10.6032C14.9649 10.7229 15.3576 11.1628 15.4321 11.9068C15.4522 12.1087 15.5804 12.2723 15.7754 12.2493C16.0457 12.217 16.0701 11.9765 16.0619 11.748C16.0752 10.9122 15.1305 9.94612 14.3244 9.96613Z"
+                                fill="white"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_247_12">
+                                <rect
+                                  width="26"
+                                  height="26"
+                                  fill="white"
+                                  transform="translate(0.0976562)"
+                                />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="footer__end">
+                <img src="./images/maps.png" alt="EVANTO" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/swiper-min.js"></script>
+    <script defer src="./js/main.js"></script>
+
+    <!-- PRECENT-START -->
+    <script>
+      document.querySelectorAll(".tarif__blocks-sep").forEach((el) => {
+        const percent = el.dataset.percent; // берём из data-percent
+        el.style.setProperty("--percent", percent);
+      });
+    </script>
+    <!-- PRECENT-END -->
+  </body>
+</html>

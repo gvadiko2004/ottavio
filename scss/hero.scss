@@ -1,0 +1,172 @@
+// .hero--moon {
+//   display: block;
+//   margin: auto;
+
+//   position: absolute;
+//   left: 50%;
+//   transform: translateX(-50%);
+//   top: 0;
+//   z-index: -1;
+//   top: -10%;
+// }
+
+.hero {
+  position: relative;
+  height: 904px;
+  overflow: visible;
+
+  @media (max-width: 768px) {
+    height: 604px;
+  }
+
+  @media (max-width: 440px) {
+    height: 704px;
+  }
+
+  &::before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    transform: translateX(-50%) scale(1.1);
+    right: 0;
+    top: -8%;
+    bottom: 0;
+
+    background-image: url("../images/moon-2.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 100%;
+
+    @media (max-width: 1080px) {
+      top: -16%;
+    }
+
+    @media (max-width: 768px) {
+      top: -16%;
+    }
+
+    @media (max-width: 440px) {
+      transform: translateX(-50%) scale(2.4);
+      top: -12%;
+    }
+  }
+
+  .icons {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      align-items: center;
+
+      @media (max-width: 768px) {
+        flex-wrap: wrap;
+        gap: 12px;
+
+        .icons-item {
+          min-height: 56px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            width: 80px;
+
+            @media (max-width: 440px) {
+              width: 50%;
+              display: block;
+              margin: auto;
+            }
+          }
+        }
+      }
+
+      @media (max-width: 440px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        margin-top: 32px;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  &__conetnt {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 350px;
+
+    max-width: 550px;
+
+    text-align: center;
+
+    @media (max-width: 1080px) {
+      top: 300px;
+    }
+
+    @media (max-width: 768px) {
+      top: 250px;
+    }
+
+    @media (max-width: 540px) {
+      max-width: 100%;
+      width: 80%;
+    }
+
+    @media (max-width: 540px) {
+      img {
+        width: 80%;
+      }
+    }
+
+    @media (max-width: 440px) {
+      width: 90%;
+    }
+
+    &-title {
+      color: #0d0d0d;
+      text-align: center;
+      text-shadow: 0 0 12.499px #e63c0c, 0 0 7.142px #e63c0c,
+        0 0 4.166px #e63c0c, 0 0 2.083px #e63c0c, 0 0 0.595px #e63c0c,
+        0 0 0.298px #e63c0c;
+      -webkit-text-stroke-width: 3px;
+      -webkit-text-stroke-color: #fff;
+      font-family: var(--third-family);
+      font-size: 88px;
+      font-weight: 400;
+      line-height: 1; /* 105.6px */
+      text-transform: uppercase;
+    }
+
+    &-subtitle {
+      color: #e63c0c;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 120%; /* 19.2px */
+      margin: 20px 0 16px 0;
+
+      @media (max-width: 440px) {
+        margin: 12px 0 20px 0;
+      }
+    }
+
+    &-muted {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 400;
+      margin-bottom: 40px;
+      line-height: 120%; /* 16.8px */
+    }
+  }
+}
