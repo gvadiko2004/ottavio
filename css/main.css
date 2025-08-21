@@ -1576,3 +1576,11 @@ a {
 .header.active {
   background-color: #000;
 }
+
+.header.active {
+  background-color: #000;
+}
+
+.header.active .custom-logo {
+  width: 100px;
+}
