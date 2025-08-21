@@ -1586,6 +1586,6 @@ a {
   background-color: #000;
 }
 
-.header.active .header__logo {
+.header.active .header__logo img {
   width: 100px;
 }
