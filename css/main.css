@@ -1572,3 +1572,7 @@ a {
     gap: 20px;
   }
 }
+
+.header.active {
+  background-color: #000;
+}
