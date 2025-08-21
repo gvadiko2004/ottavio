@@ -146,6 +146,11 @@ a {
 
   width: 100%;
 }
+@media (max-width: 440px) {
+  .header {
+        padding: 10px 0;
+  }
+}
 .header__inner {
   display: -webkit-box;
   display: -ms-flexbox;
