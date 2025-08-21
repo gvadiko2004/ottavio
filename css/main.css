@@ -96,6 +96,7 @@ a {
 .wrapper {
   overflow-x: hidden;
   overflow-y: hidden;
+  padding-top: 100px;
 }
 
 .list-reset {
@@ -136,6 +137,14 @@ a {
   padding: 16px 0;
   position: relative;
   z-index: 10;
+
+  
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  width: 100%;
 }
 .header__inner {
   display: -webkit-box;
@@ -156,6 +165,11 @@ a {
   -ms-flex-align: center;
   align-items: center;
   gap: 40px;
+}
+@media (max-width: 768px) {
+  .header__start {
+            display: block;
+  }
 }
 .header__list {
   display: -webkit-box;
@@ -705,7 +719,7 @@ a {
 }
 
 .trafic__fps-end {
-  text-align: center;
+  /* text-align: center; */
 }
 .trafic__fps-end h4 {
   color: #fff;
@@ -736,6 +750,7 @@ a {
 .package__blocks {
   display: -ms-grid;
   display: grid;
+  gap: 8px;
   -ms-grid-columns: (1fr) [4];
   grid-template-columns: repeat(4, 1fr);
 }
@@ -749,6 +764,10 @@ a {
   .package__blocks {
     -ms-grid-columns: (1fr) [1];
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .trafic__fps-end p {
+    font-size: 18px;
   }
 }
 .package__blocks-item {
@@ -969,7 +988,6 @@ a {
 
 @media (max-width: 1080px) {
   .package--lists {
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 }
@@ -1003,7 +1021,7 @@ a {
   }
 }
 .services__blocks-1 .item .package__blocks-hour {
-  white-space: nowrap;
+  white-space: nowrap !important;
 }
 
 @media (max-width: 1080px) {
@@ -1046,14 +1064,12 @@ a {
   gap: 12px;
 }
 
-
 @media (max-width: 1080px) {
   .package__blocks-sep .top-sep {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 }
-
 
 .package__blocks-sep .top-sep p {
   color: #808088;
@@ -1522,5 +1538,37 @@ a {
   .footer-social,
   .footer__info {
     border-radius: 12px;
+  }
+}
+
+.services__blocks-1 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.services__blocks-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 768px) {
+  .services__blocks-1 {
+    grid-template-columns: 1fr;
+  }
+
+  .services__blocks-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .services__blocks-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .services__blocks-4 {
+    grid-template-columns: 1fr;
+  }
+
+  .services__fps {
+    margin-top: 8px;
+    flex-wrap: wrap;
+    gap: 20px;
   }
 }
